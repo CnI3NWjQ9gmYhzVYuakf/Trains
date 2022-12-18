@@ -27,8 +27,14 @@
             PAGE 1 OF 1</br>
         </h3>
         <h4>
-            18:45:21</br>
+            <span id="time"></span></br>
         </h4>
+        <script>
+            setTimeout(() = {
+            var dt = new Date();
+            document.getElementById("time").innerHTML = dt.toLocaleTimeString('en-UK'), {hour12: false};
+            }, 1000);
+        </script>
 
     </body>
 
