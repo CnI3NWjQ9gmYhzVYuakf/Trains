@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<body>
+    <div class="resolution">
+		<span id="resolutionNumber">Error</span>
+	</div>
 
-    <head>
+<script type="text/javascript">
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="PROJECT RAIL TIMETABLE BETA">
-        <title>PROJECT RAILS TIMETABLE</title>
-        <link rel="stylesheet" href="/style.css">
-    
-    </head>
+height = screen.height;
+width = screen.width;
 
-    <body>
+res = document.getElementById ('resolutionNumber');
+res.innerHTML = width + " x " + height;
 
-        <h1>
-        09:56 | CRAMWICH</br>
-        PR000 | </br>
-         </br>
-        10:13 | PR001 GRADLING </br>
-        </h1>
+if (res == null)
+{
+	alert ("Error");
+}
+</script>
 
-    </body>
 
-</html>
+
+
+</body></html>
