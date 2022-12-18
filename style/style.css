@@ -66,6 +66,21 @@ h3 {
 
 }
 
+h4 {
+
+    font-family: 'DotMatrix Regular';
+    font-size: 25px;
+    color: #d1ab00;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    bottom: 28px;
+    left: 38px;
+    z-index: 1;
+    line-height: 1.3;
+
+}
 
 @font-face {
 
