@@ -6,7 +6,7 @@ body {
     margin: 0px;
     display: grid;
     background-repeat: repeat;
-    background-image: url(/tile.png);
+    background-image: url(/assets/tile.png);
     background-size: 32px 32px;
 
 }
