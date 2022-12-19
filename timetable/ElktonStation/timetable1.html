@@ -36,10 +36,12 @@
             }
 
             function display_timeLayered() {
-                var xDate = new Date();
-                document.getElementById('time').innerHTML = xDate;
+                var xDate = new Date()
+            
+                var x1 = xDate.getHours( )+ ":" +  xDate.getMinutes() + ":" +  xDate.getSeconds();
+                document.getElementById('time').innerHTML = x1;
                 display_time();
-}
+            }
         </script>
 
     </body>
