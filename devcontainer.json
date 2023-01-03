@@ -1,0 +1,15 @@
+{
+    "customizations": {
+      "codespaces": {
+        "repositories": {
+          "CnI3NWjQ9gmYhzVYuakf/Trains": {
+            "permissions": "write-all"
+          },
+          
+          "CnI3NWjQ9gmYhzVYuakf/ads": {
+            "permissions": "write-all"
+          }
+        }
+      }
+    }
+  }
